@@ -22,4 +22,17 @@ body{
 }
 .container{
   height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.container__botao{
+  background-color: var(--button-blue);
+  border-radius: 5px;
+  padding: 1em;
+  color: var(--primary-white);
+  display: block;
+}
+.botao_secundario{
+  background-color: transparent;
+  border: 2px solid var(--primary-white);
 }
