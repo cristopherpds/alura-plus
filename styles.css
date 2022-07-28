@@ -3,6 +3,7 @@
   --secondary-grey: #c0c0c0;
   --button-blue: #167bf7;
   --background-color: #00030c;
+  --primary-font: 'Inter';
 }
 
 *{
@@ -12,7 +13,10 @@
 
 body{
   background-color: var(--background-color);
-  color:var(--primary-white)
+  color:var(--primary-white);
+  font-family: var(--primary-font),sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .principal{
@@ -31,8 +35,17 @@ body{
   padding: 1em;
   color: var(--primary-white);
   display: block;
+  text-decoration: none;
 }
 .botao_secundario{
   background-color: transparent;
   border: 2px solid var(--primary-white);
+}
+.container__aviso{
+  font-size: 12px;
+  color: var(--secondary-grey);
+}
+.container__titulo{
+  font-size: 28px;
+  font-weight: 700;
 }
